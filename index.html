@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interaciones con js</title>
+        <link rel="stylesheet" href="css/slyles.css">
+    </head>
+    <body id="body">
+        <section id="interaciones">
+            <h2>INTERACIONES Y MANIPULACION DE HTML Y CSS CON JS</h2>
+            <br>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rectangulo()">RECTANGULO</button>
+            <button onclick="degradado()">DEGRADADO</button>
+            <button onclick="ondas()">ONDAS</button>
+            <button onclick="gif()">GIF</button>
+            <button onclick="rombo()">ROMBO</button>
+            <button onclick="triangulo()">TRIANGULO</button>
+            <button onclick="panel_lateral()">PANEL LATERAL</button>
+            <button onclick="panel_superior()">PANEL SUPERIOR</button>
+            <button onclick="fondo_body()">FONDO</button>
+        </section>
+
+        <section id="cont-figura">
+            <div id="figura" class="figura"></div>
+        </section>
+        <section id="cont-imagen">
+            <img src="img/rick.gif" width="50%">
+        </section>
+        <div id="panel-lateral">
+            <button class="close" onclick="panel_lateral()" >X</button>
+            <h3>menu principal</h3>
+            <ul>
+                <a href="#">inicio</a>
+                <a href="#">productos</a>
+                <a href="#">ventas</a>
+                <a href="#">inventarios</a>
+                <a href="#">proveedores</a>
+            </ul>
+        </div>
+        <div id="panel-superior">
+            <button class="close" onclick="panel_superior()">X</button>
+            <h3>VIDEO</h3>
+            <ul>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b3GH5NUPG2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </ul>
+            
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
